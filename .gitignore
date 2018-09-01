@@ -1,4 +1,5 @@
 *
 !/.gitignore
 !/.vim*
+!viminstall.txt
 .viminfo

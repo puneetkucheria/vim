@@ -1,5 +1,5 @@
 " Automatic reloading of .vimrc
-"" autocmd! bufwritepost .vimrc source %
+autocmd! bufwritepost .vimrc source %
 
 
 " Better copy & paste
@@ -7,7 +7,6 @@
 " paste. At the bottom you should see ``-- INSERT (paste) --``.
 set pastetoggle=<F2>
 set clipboard=unnamed
-
 
 " Mouse and backspace
 "" set mouse=a  " on OSX press ALT and click
@@ -41,10 +40,10 @@ inoremap <C-Z> <C-O>:update<CR>
 
 " bind Ctrl+<movement> keys to move around the windows, instead of using Ctrl+w + <movement>
 " Every unnecessary keystroke that can be saved is good for your health :)
-"" map <c-j> <c-w>j
-"" map <c-k> <c-w>k
-"" map <c-l> <c-w>l
-"" map <c-h> <c-w>h
+map <c-j> <c-w>j
+map <c-k> <c-w>k
+map <c-l> <c-w>l
+map <c-h> <c-w>h
 
 
 " easier moving between tabs
@@ -78,9 +77,9 @@ vnoremap > >gv  " better indentation
 
 " Enable syntax highlighting
 " You need to reload this file for the change to apply
-filetype off
-filetype plugin indent on
-syntax on
+"" filetype off
+"" filetype plugin indent on
+"" syntax on
 
 
 " Showing line numbers and length
