@@ -1,0 +1,4 @@
+nstall pathogen
+
+
+install nerdtree
