@@ -1,5 +1,7 @@
 .*
 */
 *.*
-!.vim/color/*
+!.vim/colors*
+!/.vim/autoload/*
+!.vim/bundle*
 !.vimrc
